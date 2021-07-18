@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1.16.6-buster
 
     # [Optional] Add sudo support. Omit if you don't need to install software after connecting.
 RUN apt-get update \
